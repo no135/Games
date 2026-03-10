@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Billionaire Path | BitLife Challenge</title>
+    <title>The Billionaire Path | BitLife Challenge</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-light">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
             <a class="navbar-brand fw-bold" href="index.html">BITLIFE CHALLENGE</a>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -23,67 +23,62 @@
         </div>
     </nav>
 
-    <header class="wealth-header py-5 text-center shadow-sm">
+    <header class="wealth-header py-5 text-center shadow">
         <div class="container">
             <h1 class="display-4 fw-bold">💰 The Self-Made Billionaire</h1>
-            <p class="lead">From $0 to $1,000,000,000 before age 60.</p>
+            <p class="lead">From \$0 to \$1,000,000,000 by Age 60.</p>
         </div>
     </header>
 
-    <main class="container my-5">
+    <main class="container py-5">
         <div class="row g-4">
-            <div class="col-lg-8">
-                <div class="card border-0 shadow-sm p-4 mb-4">
-                    <h2 class="h3 mb-4 section-title text-start">Permitted Ventures</h2>
-                    <div class="row text-center">
-                        <div class="col-6 col-md-3 mb-3">
-                            <div class="p-3 border rounded bg-white">💼<br>CEO</div>
+            <div class="col-md-7">
+                <div class="card border-0 shadow-sm mb-4">
+                    <div class="card-body p-4">
+                        <h3 class="section-title h4 mb-4">Approved High-Yield Careers</h3>
+                        <div class="row g-3">
+                            <div class="col-6"><div class="p-3 border rounded text-center bg-white">👨‍⚕️ Medical Doctor</div></div>
+                            <div class="col-6"><div class="p-3 border rounded text-center bg-white">⚖️ Corporate Lawyer</div></div>
+                            <div class="col-6"><div class="p-3 border rounded text-center bg-white">🏢 CEO / Business</div></div>
+                            <div class="col-6"><div class="p-3 border rounded text-center bg-white">🏠 Real Estate Mogul</div></div>
                         </div>
-                        <div class="col-6 col-md-3 mb-3">
-                            <div class="p-3 border rounded bg-white">🏥<br>Doctor</div>
-                        </div>
-                        <div class="col-6 col-md-3 mb-3">
-                            <div class="p-3 border rounded bg-white">📈<br>Stocks</div>
-                        </div>
-                        <div class="col-6 col-md-3 mb-3">
-                            <div class="p-3 border rounded bg-white">🏠<br>Real Estate</div>
-                        </div>
-                    </div>
-                    <hr>
-                    <h3 class="h5 mt-3">The "No-Go" Zone (Restrictions)</h3>
-                    <div class="alert alert-danger">
-                        <ul class="mb-0">
-                            <li><strong>No Marrying for Money:</strong> Love must be the primary factor (or at least not the bank account).</li>
-                            <li><strong>No Crime:</strong> No train robberies, bank heists, or drug running. Keep it legal!</li>
+                        <hr class="my-4">
+                        <h3 class="section-title h4 mb-3">Investment Strategy</h3>
+                        <p>To reach a billion, salary is rarely enough. You must utilize:</p>
+                        <ul>
+                            <li><strong>Stock Market:</strong> Buy low, sell high.</li>
+                            <li><strong>Crypto:</strong> High risk, high reward.</li>
+                            <li><strong>Business Ownership:</strong> Start and sell companies.</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-4">
-                <div class="card border-0 shadow-sm bg-dark text-white p-4">
-                    <h2 class="h4 mb-4 text-warning">⭐ Bonus Goals</h2>
-                    <div class="form-check mb-3">
-                        <input class="form-check-input rule-check" type="checkbox" id="bonus1">
-                        <label class="form-check-label" for="bonus1">Own 3+ Luxury Homes</label>
-                    </div>
-                    <div class="form-check mb-3">
-                        <input class="form-check-input rule-check" type="checkbox" id="bonus2">
-                        <label class="form-check-label" for="bonus2">80%+ Happiness/Health</label>
-                    </div>
-                    <div class="form-check mb-3">
-                        <input class="form-check-input rule-check" type="checkbox" id="bonus3">
-                        <label class="form-check-label" for="bonus3">Successful Heir Established</label>
+            <div class="col-md-5">
+                <div class="card border-danger shadow-sm h-100">
+                    <div class="card-header bg-danger text-white fw-bold">❌ Strict Restrictions</div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-danger"><strong>No Gold Digging:</strong> Marrying for money is an immediate fail.</li>
+                            <li class="list-group-item text-danger"><strong>No Crime:</strong> No robberies, scams, or murders for inheritance.</li>
+                            <li class="list-group-item text-danger"><strong>No Gifts:</strong> Refuse expensive gifts from significant others.</li>
+                        </ul>
+                        <div class="mt-4 p-3 bg-light rounded text-center border">
+                            <small class="text-muted italic">"True success is built, not taken."</small>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="text-center mt-5">
+            <a href="index.html" class="btn btn-outline-secondary">← Back to Overview</a>
+        </div>
     </main>
 
-    <footer class="bg-dark text-white text-center py-4">
+    <footer class="bg-dark text-white text-center py-4 mt-5">
         <p>© 2026 BitLife Challenge Creator</p>
     </footer>
 
-    <script src="rules.js"></script>
 </body>
 </html>
