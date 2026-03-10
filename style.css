@@ -1,0 +1,86 @@
+/* Custom Styles for BitLife Challenge */
+
+:root {
+    --primary-color: #2c3e50;
+    --accent-color: #f39c12; /* Gold for the Throne */
+    --success-color: #27ae60; /* Money Green */
+    --dark-bg: #121212;
+    --light-text: #f8f9fa;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f7f6;
+    color: var(--primary-color);
+    line-height: 1.6;
+}
+
+h1, h2, h3, .navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Hero Section Styling */
+.hero-section {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url('https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&q=80&w=2071');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Card Enhancements */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.section-title {
+    position: relative;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background-color: var(--accent-color);
+}
+
+/* Navigation */
+.navbar {
+    border-bottom: 2px solid var(--accent-color);
+}
+
+/* Path-Specific Styles */
+.wealth-header {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.royal-header {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+}
+
+/* List Styling */
+.list-group-item {
+    background-color: transparent;
+    border-left: 4px solid var(--accent-color);
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    border-top: 3px solid var(--accent-color);
+}
